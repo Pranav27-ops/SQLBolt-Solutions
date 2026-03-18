@@ -113,11 +113,3 @@ All columns (Id, Title, Director, Year, Length_minutes) for all films
 ---
 
 
-
-
-## Practice Challenges
-
-1. Try selecting just the `year` column
-2. Select `title`, `director`, and `year` together
-3. Select `id` and `length_minutes` columns
-4. What happens if you try to select a column that doesn't exist?
