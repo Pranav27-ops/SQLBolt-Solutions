@@ -21,10 +21,6 @@ SELECT title FROM Movies;
 - Ratatouille
 - WALL-E
 
-**Explanation:** 
-- Use `SELECT` to retrieve data
-- Specify the column name (`title`) to get only that column
-- `FROM Movies` tells the database which table to query
 
 ---
 
@@ -47,9 +43,7 @@ SELECT director FROM Movies;
 - Brad Bird
 - Andrew Stanton
 
-**Explanation:**
-- Similar to Task 1, but selecting the `director` column
-- You can select any specific column by name
+
 
 ---
 
@@ -74,10 +68,7 @@ SELECT title, director FROM Movies;
 | Ratatouille | Brad Bird |
 | WALL-E | Andrew Stanton |
 
-**Explanation:**
-- To select multiple columns, separate them with commas
-- The order matters: `SELECT title, director` will return title first, then director
-- You can select as many columns as you need
+
 
 ---
 
@@ -102,9 +93,7 @@ SELECT title, year FROM Movies;
 | Ratatouille | 2007 |
 | WALL-E | 2008 |
 
-**Explanation:**
-- Here we select `title` and `year` columns
-- You can see how to combine different columns in one query
+
 
 ---
 
@@ -119,41 +108,12 @@ SELECT * FROM Movies;
 **Expected Output:**
 All columns (Id, Title, Director, Year, Length_minutes) for all films
 
-**Explanation:**
-- The asterisk `*` is a wildcard that means "all columns"
-- `SELECT *` is useful when you want everything
-- This returns: Id, Title, Director, Year, Length_minutes
+
 
 ---
 
-## Key Concepts
 
-✅ **SELECT** - Retrieves data from a database
-✅ **Column Names** - Specify which columns you want
-✅ **Asterisk (*)** - Wildcard for all columns
-✅ **Comma-separated** - Use commas to select multiple columns
-✅ **FROM** - Specifies which table to query
 
----
-
-## What I Learned
-
-- SELECT is the most basic SQL command
-- You can select one column, multiple columns, or all columns
-- Column order matters in SELECT statements
-- The * wildcard is very useful for quick queries
-- Always remember the FROM clause to specify the table
-
----
-
-## Common Mistakes to Avoid
-
-❌ **Forgetting FROM clause** - Every SELECT needs to know which table
-❌ **Typo in column names** - SQL is case-sensitive for column names
-❌ **Missing comma between columns** - Must separate multiple columns with commas
-❌ **Using SELECT without specifying columns** - This won't work (except with *)
-
----
 
 ## Practice Challenges
 
